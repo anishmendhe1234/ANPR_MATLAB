@@ -14,10 +14,10 @@ This repository contains the implementation of an Automatic Number Plate Recogni
 ## **License** [📜](#License)
 
 
-##Introduction
+## Introduction
 An automatic vehicle identification system is designed to capture vehicle images, extract license plates, recognize characters using OCR, and compare them against a database. It involves several stages including image acquisition, pre-processing, plate detection, plate segmentation, character recognition, and output display. The system utilizes various image processing techniques such as resizing, noise removal, edge detection, morphological operations, and feature extraction to identify and recognize number plates accurately.
 
-##Methodology
+
 ## Methodology
 
 The ANPR system follows a step-by-step process to achieve accurate license plate recognition:
@@ -68,7 +68,7 @@ To use the ANPR system, follow these steps:
 
 The ANPR system has been tested on various images of vehicles of different sizes and has shown good results in detecting and recognizing number plates. The system's accuracy, processing time, and detection rate can be evaluated by comparing the recognized characters with the ground truth data.
 
-##Implementation
+## Implementation
 
 The implementation of the ANPR system is done in MATLAB (R2022b). The code consists of several MATLAB scripts and functions that perform specific tasks such as image pre-processing, plate detection, plate segmentation, and character recognition. These scripts can be executed sequentially to run the ANPR system.
 
