@@ -60,7 +60,7 @@ To use the ANPR system, follow these steps:
 
 1. Clone the repository to your local machine.
 2. Launch MATLAB and navigate to the project directory.
-3. Modify the code to specify the input image or video stream.
+3. Modify the code to specify the input image and import car images data in Matlab.
 4. Run the MATLAB script to execute the ANPR system.
 5. View the output, displaying the recognized characters and the processed image with the detected number plate highlighted.
 
