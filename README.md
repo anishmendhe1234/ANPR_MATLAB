@@ -2,15 +2,17 @@
 
 This repository contains the implementation of an Automatic Number Plate Recognition (ANPR) system using MATLAB. The system utilizes image processing techniques to detect and recognize vehicle number plates from images or video streams. It can be used for various applications such as traffic monitoring, toll collection systems, parking lot management, and law enforcement.
 
-Table of contents
-## Introduction {#Introduction}
-## Methodology {#Methodology}
-## Usage {#Usage}
-## Results and Discussion {#results-and-discussion}
-## Implementation {#Implementation}
-## Dependencies {#Dependencies}
-## Contributing {#Contributing}
-## License {#License}
+# Table of Contents
+
+## **Introduction** [↩️](#Introduction)
+## **Methodology** [🔬](#Methodology)
+## **Usage** [🔧](#Usage)
+## **Results and Discussion** [📊](#results-and-discussion)
+## **Implementation** [🚀](#Implementation)
+## **Dependencies** [📦](#Dependencies)
+## **Contributing** [🤝](#Contributing)
+## **License** [📜](#License)
+
 
 ##Introduction
 An automatic vehicle identification system is designed to capture vehicle images, extract license plates, recognize characters using OCR, and compare them against a database. It involves several stages including image acquisition, pre-processing, plate detection, plate segmentation, character recognition, and output display. The system utilizes various image processing techniques such as resizing, noise removal, edge detection, morphological operations, and feature extraction to identify and recognize number plates accurately.
@@ -62,7 +64,7 @@ To use the ANPR system, follow these steps:
 4. Run the MATLAB script to execute the ANPR system.
 5. View the output, displaying the recognized characters and the processed image with the detected number plate highlighted.
 
-##Results and Discussion
+## Results and Discussion
 
 The ANPR system has been tested on various images of vehicles of different sizes and has shown good results in detecting and recognizing number plates. The system's accuracy, processing time, and detection rate can be evaluated by comparing the recognized characters with the ground truth data.
 
@@ -70,7 +72,7 @@ The ANPR system has been tested on various images of vehicles of different sizes
 
 The implementation of the ANPR system is done in MATLAB (R2022b). The code consists of several MATLAB scripts and functions that perform specific tasks such as image pre-processing, plate detection, plate segmentation, and character recognition. These scripts can be executed sequentially to run the ANPR system.
 
-##Dependencies
+## Dependencies
 
 The ANPR system in MATLAB relies on the following dependencies:
 
@@ -78,9 +80,9 @@ The ANPR system in MATLAB relies on the following dependencies:
 2.Image Processing Toolbox
 Make sure you have MATLAB installed on your machine and the Image Processing Toolbox is available.
 
-##Contributing
+## Contributing
 Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please feel free to submit a pull request.
-##License
+## License
 You are free to use, modify, and distribute the code for personal and commercial purposes.
 
 
